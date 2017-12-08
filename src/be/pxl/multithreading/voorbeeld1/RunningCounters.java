@@ -6,7 +6,7 @@ public class RunningCounters {
 	   {
 	      Counter counter1 = new Counter(OutputColor.GREEN, 10);
 	      Counter counter2 = new Counter(OutputColor.CYAN, 15);
-	      counter1.start();
+	      counter1.start();//thread altijd met start, niet run!
 	      counter2.start();
 	      try
 	      {
